@@ -5993,7 +5993,7 @@ fi
 check_cc intrinsics_neon arm_neon.h "int16x8_t test = vdupq_n_s16(0)"
 
 check_ldflags -Wl,--as-needed
-check_ldflags -Wl,-z,noexecstack
+check_ldflags -Wl
 
 if ! disabled network; then
     check_func getaddrinfo $network_extralibs
