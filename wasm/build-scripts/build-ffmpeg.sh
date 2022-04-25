@@ -53,7 +53,7 @@ FLAGS=(
 #  -lfreetype
 #  -lopus
 #  -lwebp
-
+  -lworkerfs.js
 
   fftools/ffmpeg_opt.c fftools/ffmpeg_filter.c fftools/ffmpeg_hw.c fftools/cmdutils.c fftools/ffmpeg.c
 #  -s USE_SDL=2                                  # use SDL2
